@@ -28,6 +28,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+#Paper clip for image view
+gem "paperclip", "~> 4.3"
+#gem 'rmagick', '~> 2.15', '>= 2.15.4'
 
 group :development, :test do
      gem 'sqlite3'
