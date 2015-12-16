@@ -37,12 +37,16 @@ Rails.application.configure do
    # required for Heroku
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
- #Paperclip.options[:command_path] = 'C:/Program Files/ImageMagick-7.0.0-Q16'
- #Paperclip.options[:command_path] = "c/Windows/system32/convert"
- #Paperclip.options[:command_path] = "C:/Program Files (x86)/GnuWin32/"
+ #Photo uppload to aws-sdk and paperclick
+ config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => ENV['S3_BUCKET_NAME'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+    }
+}
 
- #C:\Program Files\ImageMagick-7.0.0-Q16
- #Paperclip.options[:command_path] = 'C:/progra~2/imagem~7.0-q16'
 
 
 end

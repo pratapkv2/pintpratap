@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem "paperclip", "~> 4.3"
 #gem 'rmagick', '~> 2.15', '>= 2.15.4'
 
+#AWS-SDK 
+gem 'aws-sdk', '~> 2'
+
 group :development, :test do
      gem 'sqlite3'
 end
