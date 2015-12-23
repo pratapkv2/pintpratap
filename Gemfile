@@ -34,10 +34,13 @@ gem "paperclip", "~> 4.3"
 #gem 'rmagick', '~> 2.15', '>= 2.15.4'
 
 #AWS-SDK 
-gem 'aws-sdk', '~> 2'
+#gem 'aws-sdk', '~> 2'
 
 #jquery
 gem 'masonry-rails'
+
+#ENV variable set
+#gem 'figaro'
 
 
 group :development, :test do
