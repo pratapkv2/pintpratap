@@ -34,7 +34,7 @@ gem "paperclip", "~> 4.3"
 #gem 'rmagick', '~> 2.15', '>= 2.15.4'
 
 #AWS-SDK 
-#gem 'aws-sdk', '~> 2'
+gem 'aws-sdk'
 
 #jquery
 gem 'masonry-rails'
