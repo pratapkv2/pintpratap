@@ -39,7 +39,6 @@ gem 'aws-sdk', '< 2.0'
 
 #jquery
 gem 'masonry-rails'
-
 #ENV variable set
 #gem 'figaro'
 
