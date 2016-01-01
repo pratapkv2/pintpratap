@@ -41,6 +41,11 @@ gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails'
 #ENV variable set
 #gem 'figaro'
+#paginate
+gem 'will_paginate'
+
+#paginate bootstrap
+gem 'will_paginate-bootstrap'
 
 
 group :development, :test do
